@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  height: 100vh;
+  overflow: auto;
+}
+
+header {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .nav-list {
+  list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.nav-list .nav-list-link {
+  text-decoration: none;
+  color: #222324;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+main {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  margin-top: 40px;
+  height: 46vh;
+}
+
+.main_quote {
+  background: #d2c7f0;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 40px;
+}
+
+.main_image {
+  width: 60%;
+}
+
+.cover_image {
+  width: 100%;
+  height: 100%;
+}
+
+.intro_quote {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.info_quote {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31.58px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222324;
+  border: 2px solid #222324;
+  padding: 10px 20px;
+}
+
+.btn_products {
+  background: #222324;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.second_quote {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission_quote {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.mission_quote span {
+  color: #d2c7f0;
+}
+
+.description {
+  width: 60%;
+}
+
+.description p {
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31.58px;
+}
+@media only screen and (max-width: 600px) {
+  nav{
+  display: flex;
+  flex-direction: column;
+  } 
+  .nav-list-item{
+    list-style: none;
+    margin: 45px;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 280px;
+   
+  }
+  .main_image{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main_quote{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+  .btn_products{
+    display: block;
+    margin:10px;
+  }
+  .container2{
+    display: flex;
+    flex-direction:column ;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+
+}
